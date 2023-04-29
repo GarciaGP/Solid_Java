@@ -37,7 +37,7 @@ public class DadosPessoais {
         return salario;
     }
 
-    public void setSalario(BigDecimal salario) {
+    protected void setSalario(BigDecimal salario) {
         this.salario = salario;
     }
 }

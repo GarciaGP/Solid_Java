@@ -12,7 +12,7 @@ public class Funcionario {
 	private LocalDate dataUltimoReajuste;
 
 	public Funcionario(DadosPessoais dadosPessoais) {
-	this.dadosPessoais = dadosPessoais
+	this.dadosPessoais = dadosPessoais;
 	}
 
 	public void atualizarSalario(BigDecimal novoSalario) {
@@ -22,6 +22,14 @@ public class Funcionario {
 
 	public LocalDate getDataUltimoReajuste() {
 		return dataUltimoReajuste;
+	}
+
+	public DadosPessoais getDadosPessoais() {
+		return dadosPessoais;
+	}
+
+	public void setDadosPessoais(DadosPessoais dadosPessoais) {
+		this.dadosPessoais = dadosPessoais;
 	}
 
 	public void setDataUltimoReajuste(LocalDate dataUltimoReajuste) {
