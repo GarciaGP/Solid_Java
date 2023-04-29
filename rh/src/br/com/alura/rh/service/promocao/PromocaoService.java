@@ -10,7 +10,7 @@ public class PromocaoService {
 
         Cargo cargoAtual = funcionario .getCargo();
 
-        if (Cargo.GERENTE == cargoAtual); {
+        if (Cargo.GERENTE == cargoAtual) {
             throw  new ValidacaoException("Gerentes não podem ser promovidos");
         }
 
